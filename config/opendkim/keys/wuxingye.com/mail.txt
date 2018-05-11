@@ -1,0 +1,3 @@
+mail._domainkey	IN	TXT	( "v=DKIM1; h=sha256; k=rsa; "
+	  "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzXPMtz0X1QcAjv2kulrOAS1bI23XdpHol+ZN/VULCTTStoiC+m+Ugo9d8gcxTCWqvY/jhjUR0P9GJladQqGdaT6bJZY1UHeZSu29C/JtB9tK6WATFNtOgCsKxAt6R0dvLfTZTRcE31VMPl09Q5+WeThGDlJdcta872gvIxUjNZINyQrWqgCH9jeqwhsuq7lMWhFazixFZdl5Wn"
+	  "txQnbVuJ5YlCkwXcQrHegaYGbrGIIYowmJ3IprCnZRUKkWEoyE7eYUOslT9LBuDt5DaKUdtil2/2BPkRakjYsxnNaFCl7aB/8y/Ufv5A5lwSPwRSQGuNGZsI0934aplFxOPbd0sQIDAQAB" )  ; ----- DKIM key mail for wuxingye.com
