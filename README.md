@@ -19,26 +19,32 @@ https://github.com/tomav/docker-mailserver/wiki/Setup-docker-mailserver-using-th
 - host添加
     ````
     127.0.0.1	mail.local.wuxingye.com
+    ````
 - 执行docker compose命令，启动邮件服务：
     ````
     docker-compose up -d mail
+    ````
 ### 账户修改（需要重启docker生效）：
 - 添加邮件
     ````
     ./setup.sh email add <email> <password> ，比如 ./setup.sh email add test@wuxingye.com 123456
+    ````
 - 更新邮件 
     ````
     ./setup.sh email update <email> <password> ，比如 ./setup.sh email update test@wuxingye.com 123456
+    ````
 - 删除邮件
     ````
     ./setup.sh email del <email> ，比如 ./setup.sh email del test@wuxingye.com 123456
+    ````
 - 收发邮件黑名单
     ````
     ./setup.sh email restrict <add|del|list> <send|receive> [<email>]
+    ````
 - 邮件列表
     ````
     ./setup.sh email list
-
+    ````
 ### mac email添加账户
 
    1.添加账户，选择other mail account，输入账号：test@wuxingye.com
