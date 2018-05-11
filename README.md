@@ -1,4 +1,11 @@
-# docker-mailserver
+---
+title: 利用docker搭建邮件服务器
+---
+
+# docker-mailserver 
+
+[github地址](https://github.com/wuxingye/docker-mailserver)
+
 参考https://github.com/tomav/docker-mailserver 生成
 
 ### WIKI：
@@ -41,13 +48,13 @@ https://github.com/tomav/docker-mailserver/wiki/Setup-docker-mailserver-using-th
 - mac email添加账户
 
    1.添加账户，选择other mail account，输入账号：test@wuxingye.com
-    ![avatar](./img/account.jpeg)
+    ![账号](利用docker搭建邮件服务器/account.jpeg)
     
    2.输入密码：123456
-    ![avatar](./img/signin.jpeg)
+    ![密码](利用docker搭建邮件服务器/signin.jpeg)
     
    3.输入服务器地址：mail.local.wuxingye.com
-    ![avatar](./img/server.jpeg)
+    ![服务器](利用docker搭建邮件服务器/server.jpeg)
     
    4.完成：可以使用了
-    ![avatar](./img/down.jpeg)
+    ![完成](利用docker搭建邮件服务器/down.jpeg)
